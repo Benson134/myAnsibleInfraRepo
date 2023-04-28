@@ -8,12 +8,12 @@
    tasks:
      - name: create S3 bucket
        s3_bucket:
-         name: myansibles3bucket123
+         name: myansibles3bucket122
          state: present
          region: us-east-1
          versioning: yes
          tags:
-           name: myansiblebucket
+           name: myansiblebucket2
            type: example
        register: s3_url
 
